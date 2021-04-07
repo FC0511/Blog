@@ -15,11 +15,10 @@ git add -A
 git commit -m 'init'
 
 # 如果发布到 https://<USERNAME>.github.io
- git push -f git@github.com:FC0511/Blog.git master:pages
 #git push -f https://github.com/FC0511/test.github.io.git  master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+git push -f git@github.com:FC0511/Blog.git master:pages
 #git push -f git@github.com:Tsanfer/VuePress-GithubPages-TravisCI.git master:gh-pages
 
 cd -
