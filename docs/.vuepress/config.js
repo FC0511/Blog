@@ -1,6 +1,6 @@
 module.exports = {
     base: "/Blog/", //目录根地址，应与Github仓库名字相同
-    title: '知码学院666',
+    title: '知码学院6666',
     description: '君哥带你上王者',
     // dest: './dist',
     port: '7777',
