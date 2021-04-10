@@ -4,11 +4,11 @@ node_js:
   - lts/*
 
 install:
-  - yarn install # npm ci
-  
+  - yarn install
+
 script:
-  - yarn docs:build # npm run docs:build
-  
+  - yarn build
+
 deploy:
   provider: pages
   skip_cleanup: true
@@ -17,5 +17,5 @@ deploy:
   keep_history: true
   on:
     branch: master #这里指的是部署前的源文件分支
-    
-    
+
+
