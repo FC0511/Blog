@@ -11,14 +11,15 @@ install:
   - yarn install
 
 script:
-  - yarn build
+#  - yarn build
+  - bash ./deploy.sh
 
-after_script:
-  - cd docs/.vuepress/dist
-  - git init
-  - git add -A
-  - git commit -m '通过自动化部署'
-  - git push -f git@github.com:FC0511/Blog.git master:pages
+#after_script:
+#  - cd docs/.vuepress/dist
+#  - git init
+#  - git add -A
+#  - git commit -m '通过自动化部署'
+#  - git push -f git@github.com:FC0511/Blog.git master:pages
 
 deploy:
   provider: pages
