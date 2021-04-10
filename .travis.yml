@@ -11,6 +11,7 @@ install:
   - yarn install
 
 script:
+  - chmod u+x deploy.sh
   - bash ./deploy.sh
 
 deploy:
