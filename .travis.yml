@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - lts/*
+  - stable
 
 cache:
   directories:
@@ -11,7 +11,6 @@ install:
   - yarn install
 
 script:
-  - chmod u+x deploy.sh
   - bash ./deploy.sh
 
 deploy:
