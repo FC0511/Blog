@@ -18,6 +18,6 @@ git commit -m 'init'
 #git push -f https://github.com/FC0511/test.github.io.git  master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-#git push -f git@github.com:FC0511/Blog.git master:pages
-git push -f https://github.com/FC0511/Blog.git master:pages
+git push -f git@github.com:FC0511/Blog.git master:pages
+#git push -f https://github.com/FC0511/Blog.git master:pages
 cd -
