@@ -1,21 +1,21 @@
 module.exports = {
     base: "/Blog/", //目录根地址，应与Github仓库名字相同
-    title: '知码学院6666',
-    description: '君哥带你上王者',
+    title: '龙讯',
+    description: 'VuePress + GithubPages + TravisCI 在线文档',
     // dest: './dist',
-    port: '7777',
+    // port: '7777',
     head: [
-        ['link', { rel: 'icon', href: '/logo1.jpg' }]
+        ['link', { rel: 'icon', href: '' }]
     ],
     markdown: {
-        lineNumbers: false
+        lineNumbers: true
     },
     //theme: 'reco',
     themeConfig: {
         // type: 'blog',
         nav: require('./nav'),
-        sidebar:  require('./sidebar'),
-        //sidebar: 'auto',
+        // sidebar:  require('./sidebar'),
+        sidebar: 'auto',
         sidebarDepth: 2,
         searchMaxSuggestoins: 10,
         serviceWorker: {
