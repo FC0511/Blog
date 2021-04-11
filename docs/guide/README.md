@@ -13,10 +13,10 @@
 非弹窗页的布局结构分为2类：
 
 1、带左侧树形结构的
-![](/images/左侧有树结构.png)
+![](/Blog/images/左侧有树结构.png)
 
 2、普通结构（无左侧树形）
-![](/images/普通结构.png)
+![](/Blog/images/普通结构.png)
 
 
 
@@ -112,7 +112,7 @@ App.getContentAjax(url).done(function (res) {
 ## 菜单跳转
 
 想在首页跳转到特点的二级菜单下
-![](/images/菜单定位.png)
+![](/Blog/images/菜单定位.png)
 
 `App.setSidebarMenuActive(Ls.base64.encode("二级菜单data-id"));`
 
@@ -280,7 +280,7 @@ var data = cur.dialog.data('sysData'); // 获取到数据
 ### 自定义弹窗
 
 业务需要提供了一个简易的弹窗
-![](/images/自定义弹窗.png)
+![](/Blog/images/自定义弹窗.png)
 
 最简单的调用方式，传入text属性
 
@@ -308,7 +308,7 @@ indexMgr._selfWin({text: '确定提交？'}, function(){
 ```
 
 ## form表单操作
-![](/images/search.png)
+![](/Blog/images/search.png)
 
 原先的搜索和显示全部方法操作繁琐，简化搜索参数赋值操作。
 
@@ -451,7 +451,7 @@ function showAll(self) {
 ```
 
 ### 常见错误
-![avalon](/images/avalon.png)
+![avalon](/Blog/images/avalon.png)
 
 ::: warning 注意
 上图这种错误90%是因为html上绑定了ms-duplex="xxx"，而数据对象里不存在xxx属性导致的；
